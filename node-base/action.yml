@@ -19,7 +19,7 @@ inputs:
 runs:
   using: composite
   steps:
-    - uses: holepunchto/actions/checkout@test-upgrade-checkout-v7
+    - uses: marco-hp/actions/checkout@test-upgrade-checkout-v7
     - uses: holepunchto/actions/setup-socket@v1
     - uses: holepunchto/actions/setup-node@v1
       with:
